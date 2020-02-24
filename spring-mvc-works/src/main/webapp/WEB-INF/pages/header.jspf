@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+
+<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<div class="alert alert-primary">
+	<div class="container">
+	<h2>Welcome to product manager App</h2>
+		</div>
+</div>	
+
+<div class="container" style="min-height: 450px">
+	
+<p>
+	<a href="./home" class="btn btn-link">Home</a> |
+	<a href="./all-products" class="btn btn-link">All Products</a> | 
+	<a href="./price-form" class="btn btn-link">Products By Price</a> | 
+	<a href="./add-product" class="btn btn-link">Add Product</a>  
+</p>
